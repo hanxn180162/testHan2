@@ -1,20 +1,29 @@
-<%@ page language="java" pageEncoding="utf-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%--
+  Created by IntelliJ IDEA.
+  User: 14643
+  Date: 2018/12/20
+  Time: 14:05
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <title>testHan首页</title>
-    </head>
+    <title>首页</title>
+    <style type="text/css">
+        body {
+            background: url(images/backImage.png);
+        }
+    </style>
 </head>
 <body>
-      <h1>欢迎来到testHan系统</h1>
-      <dev>
-          <table border="1" align="center" style="width: 300px;text-align: center;">
-              <tr>
-                  <td><a href="${pageContext.request.contextPath}/views/a.jsp" target="_blank">接口1</a></td>
-              </tr>
-          </table>
-      </dev>
+
+<%--<img src="images/backImage.png" alt="hhh">--%>
+
+
+<a href="/views/user/a.jsp">跳转</a>
+<br><br>
+
+
+
 </body>
 </html>
